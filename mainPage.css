@@ -22,6 +22,4 @@ a.author {
 a.author:hover {
 	text-decoration: underline;
 }
-.popularscore, .glyphicon-star {
-	color: #04a7e3;
-}
+
