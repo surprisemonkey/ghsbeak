@@ -1,0 +1,19 @@
+/* CSS used here will be applied after bootstrap.css */
+
+.nav {
+  margin-bottom: 0;
+  > li.dropdown.open {
+    position: static;
+    .dropdown-menu {
+      display: table;
+      width: 100%;
+      text-align: center;
+      left: 0;
+      right: 0;
+    }
+  }
+}
+
+.dropdown-menu > li {
+  display: table-cell;
+}
