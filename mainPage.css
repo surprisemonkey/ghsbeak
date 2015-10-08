@@ -9,7 +9,7 @@ body {
 }
 
 /*global attributes*/
-hr {
+hr.one {
 	height: 2px;
 	background: black;
 	margin: 0;
